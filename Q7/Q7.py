@@ -5,7 +5,8 @@
 # A = set(input('Enter : '))
 # print(' '.join(set([str(i) for i in input().split() if ((i % 6 == 0) and ((A.index(i)+1) % 6) == 0)])))
 
+print(' '.join(list(filter((lambda x: int(x) % 6 == 0), input().split()))))
 
-print(' '.join(list(set([i for i in input().split() if (int(i) % 6 == 0)]))))
-print(globals())
+
+#print(' '.join(list(set([i for i in input().split() if (int(i) % 6 == 0)]))))
 
