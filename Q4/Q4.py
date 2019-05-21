@@ -1,6 +1,7 @@
 import random
 import math
 
+
 def IsInCircle(x, y):
     if (x*x + y*y) > 1:
         return False
