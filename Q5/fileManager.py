@@ -1,6 +1,7 @@
 import os
 
 
+# Create Directory
 def create_dir(name, address):
     print("> Create Directory")
     try:
@@ -12,6 +13,7 @@ def create_dir(name, address):
         print("Problem: Directory existed!")
 
 
+# Create File
 def create_file(name, address):
     print("> Create File")
     try:
@@ -24,6 +26,7 @@ def create_file(name, address):
         print("Problem: File existed!")
 
 
+# Delete Directory
 def delete(name, address):
     print("> Delete Directory")
     try:
@@ -35,6 +38,7 @@ def delete(name, address):
         print("Problem: File not existed!")
 
 
+# Find File
 def find(name, address):
     print("> Find File")
     result = []
