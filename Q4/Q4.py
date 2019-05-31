@@ -2,6 +2,7 @@ import random
 import math
 
 
+# Point in circle?
 def IsInCircle(x, y):
     if (x*x + y*y) > 1:
         return False
@@ -9,6 +10,7 @@ def IsInCircle(x, y):
         return True
 
 
+# Estimate PI
 def Find():
     err = 0.01
     number_of_points = 0
