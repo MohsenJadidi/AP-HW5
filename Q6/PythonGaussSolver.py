@@ -6,7 +6,7 @@ class PyGaussSolver:
         self.m_A = a
         self.m_B = b
         self.m_N = n
-        self.m_Result = None;
+        self.m_Result = None
 
     def legendre(self, m_N, x):
         if m_N == 0:
@@ -46,4 +46,4 @@ class PyGaussSolver:
         self.m_Result = ((self.m_B - self.m_A) / 2.0) * integral
 
     def getResult(self):
-        return self.m_Result;
+        return self.m_Result
